@@ -32,11 +32,11 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.3.111:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: true
   instance:
-    hostname: 192.168.3.144
+    hostname: localhost
     
 #logging
 logging:
